@@ -47,7 +47,7 @@ clean:
 
 compile: $(BUILDPATH)/$(PROG_CBM)
 
-$(BUILDPATH)/$(PROG_CBM): $(SOURCE) $(INCLUDES) $(RESOURCES)
+$(BUILDPATH)/$(PROG_CBM): $(SOURCE) $(INCLUDES) $(RESOURCES) dirs
 	$(ACMEPATH)/acme \
 		-r $(BUILDPATH)/buildreport \
 		--vicelabels $(BUILDPATH)/labels \
