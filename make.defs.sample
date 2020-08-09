@@ -1,0 +1,7 @@
+#
+# Copy to make.defs and edit as needed
+#
+ACMEPATH=/usr/local/bin
+CRUNCHERPATH=$(PWD)/../pucrunch
+EMULATORPATH=/Applications/vice/x64.app/Contents/MacOS
+
